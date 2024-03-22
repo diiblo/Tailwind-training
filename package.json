@@ -1,5 +1,11 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./public/css/tailwind.css --watch"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
